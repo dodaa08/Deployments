@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Urls" ALTER COLUMN "id" DROP DEFAULT;
+DROP SEQUENCE "Urls_id_seq";
